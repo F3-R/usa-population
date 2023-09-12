@@ -1,0 +1,12 @@
+<div>
+    <h1>USA Population</h1>
+    
+    <app-chart
+        *ngIf="formattedPopulationData"
+        [series]="formattedPopulationData"
+    ></app-chart>
+    
+    <a mat-button mat-raised-button color="accent" routerLink="/home">
+        Go back
+    </a>
+</div>
